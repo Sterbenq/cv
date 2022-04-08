@@ -1,0 +1,484 @@
+.img-profile {
+  position: relative;
+  filter: invert(50%) sepia(97%) saturate(3523%) hue-rotate(224deg)
+    brightness(99%) contrast(104%);
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+.fnt > h2 {
+  margin-left: 20px;
+}
+.fnt > h2 > a {
+  text-decoration-line: underline;
+  color: #ff72b6;
+}
+
+.fnt::placeholder {
+  font-size: 30px !important;
+  
+}
+.top {
+  margin-top:30px;
+  margin-bottom: 60px !important;
+  display: flex;
+  justify-content: space-between;
+}
+.first {
+  display: flex;
+  color: white;
+}
+
+.second > a {
+  text-decoration-line: underline;
+  color: #ff72b6;
+}
+
+._nchess {
+  margin-top: 0 !important;
+  margin-bottom: 20px !important;
+}
+
+._nchessTabs__item {
+  font-size: 16px !important;
+  height: 52px !important;
+  background: rgba(55, 45, 130, 0.8);
+  border: 2px solid #372d82;
+  box-sizing: border-box;
+  border-radius: 7px;
+}
+
+.first > p {
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.second > a {
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: right;
+}
+
+.bottom {
+  background: #211a54;
+  border: 2px solid #372d82;
+  box-sizing: border-box;
+  border-radius: 7px;
+  position: relative;
+}
+
+.text {
+  display: flex;
+  right: 31px;
+  bottom: 44px;
+  margin-left: 31px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.social_logos {
+  margin-right: 10px;
+}
+
+.text > p {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700 !important;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.text > a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #ff72b6;
+  flex-wrap: wrap;
+}
+.bigSpacer {
+  margin-bottom: 107px;
+}
+.spacerTop {
+  margin-top: 30px;
+}
+.spacerTopSocial {
+  margin-top: 72px;
+}
+
+.spacer > p1 {
+  color:#FF64AE;
+}
+.spacer {
+  margin-bottom: 60px;
+}
+.input {
+  background: #1d1546;
+  border: 1px solid #372d82;
+  box-sizing: border-box;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  height: 50px;
+  width: 400px;
+  left: 0px;
+  top: 0px;
+  border-radius: 6px;
+  color: white;
+  font-weight: normal !important;
+  padding-left: 13px;
+}
+
+.input::placeholder {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 18px !important;
+}
+.plc::placeholder {
+  color: #8178c5;
+  font-size: 14px;
+}
+
+.btn {
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font: 18px "Fira Sans";
+  margin-left: auto;
+  margin-right: auto !important;
+  color: white;
+  margin-bottom: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+  background: radial-gradient(
+    132.75% 155.27% at 31.94% -11.82%,
+    #9186ff 0,
+    #6d61ff 33.87%,
+    #574aff 91.62%
+  );
+  -webkit-box-shadow: 0 11px 19px rgb(0 0 0 / 9%);
+  box-shadow: 0 11px 19px rgb(0 0 0 / 9%);
+  border: 2px solid #372d82;
+  box-sizing: border-box;
+  border-radius: 7px;
+  white-space: nowrap;
+  padding: 0 15px;
+  height: 54.44444274902344px;
+  width: 242.91079711914062px;
+  left: 8.54443359375px;
+  top: 7.77734375px;
+  border-radius: 7px;
+
+  border: 2.25px solid;
+
+  border-image-source: linear-gradient(
+    180deg,
+    #9086ff 0%,
+    rgba(144, 134, 255, 0) 15.48%
+  );
+}
+
+.selector {
+  background: #1d1546;
+  border: 1px solid #372d82;
+  box-sizing: border-box;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  height: 50px;
+  width: 400px;
+  left: 0px;
+  top: 0px;
+  color: white !important;
+  font-family: "Fira Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-left: 13px;
+  -webkit-appearance: auto !important;
+}
+
+.coin {
+  margin-right: 20px;
+  padding-left: 13px;
+  font-size: 18px;
+}
+
+._nbody input {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+._ncontainer--small {
+  max-width: 1166px;
+}
+.textConfirm {
+  display: flex;
+  width: auto;
+  max-width: 970px;
+  font-family: "Fira Sans";
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 100 !important;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #8178c5;
+  margin-left: 31px;
+
+}
+
+@media screen and (max-width: 815px) {
+  .spacerTopSocial > p {
+    width: 600px !important;
+  }
+  .display_logo{
+    display: none;
+  }
+  .text > p {
+    width: 900px !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .spacerTopSocial {
+    margin-top: 30px;
+  }
+  .display_logo{
+    display: none;
+  }
+  .bottom{
+    min-width: 322px !important;
+  }
+  .textConfirm > P {
+    font-size: 12px !important;
+  }
+  .control-group{   
+    width: 115px;
+  }
+.text {
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+}
+  .removeBtn{
+    height: 26px !important;
+width: 109px !important;
+left: 213px !important;
+top: 848px !important;
+border-radius: 4px !important;
+padding: 10px, 30px, 10px, 30px !important;
+
+  }
+  .text > p1{
+    margin-right: 13px !important;
+  }
+  .text > p2{
+    font-size: 12px !important;
+  }
+  .text > p2 > a {
+    font-size: 12px !important;
+  }
+  .spacer > p {
+    font-size: 12px !important;
+  }
+  .text > p1{
+    font-size: 12px !important;
+  }
+  .spacerTopSocial > p {
+    width: 400px !important;
+  }
+  .top {
+    margin-bottom: 10px !important;
+  }
+  .fnt {
+    font-size: 12px !important;
+  }
+  .input::placeholder {
+    font-size: 12px !important;
+  }
+  .spacer {
+    margin-bottom: 30px;
+  }
+  .btn {
+    height: 35.77777862548828px;
+    width: 278.41314697265625px;
+    left: 9.79345703125px;
+    top: 5.109375px;
+    border-radius: 7px;
+    font-size: 14px !important;
+  }
+  .input {
+    height: 36px;
+    width: 282px;
+    left: 0px;
+    top: 0px;
+    border-radius: 6px;
+  }
+  .selector {
+    font-size: 12px !important;
+    height: 36px;
+    width: 282px;
+    left: 0px;
+    top: 0px;
+    border-radius: 6px;
+  }
+  .text {
+    flex-wrap: wrap;
+  }
+  .coin {
+    font-size: 12px !important;
+  }
+  .text > p {
+    font-size: 12px !important;
+    width: 400px;
+  }
+  .text > a {
+    font-size: 12px !important;
+    margin-right: 80px;
+  }
+  .second > a {
+    font-size: 12px !important;
+  }
+  .first > p {
+    font-size: 12px !important;
+  }
+  ._nchessTabs__item {
+    font-size: 10px !important;
+  }
+}
+
+.control {
+  font-family: arial;
+  display: block;
+  position: relative;
+  padding-left: 27px;
+  margin-bottom: 5px;
+  padding-top: 3px;
+  cursor: pointer;
+  font-size: 12px;
+}
+  .control input {
+      position: absolute;
+      z-index: -1;
+      opacity: 0;
+  }
+.control_indicator {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  height: 30px;
+  width: 30px;
+  background: #1D1546;
+  border: 1px solid #372d82;
+  border-radius: 6px;
+}
+.control:hover input ~ .control_indicator,
+.control input:focus ~ .control_indicator {
+  background: #1D1546;
+}
+
+.control input:checked ~ .control_indicator {
+  background: #1D1546;
+}
+.control:hover input:not([disabled]):checked ~ .control_indicator,
+.control input:checked:focus ~ .control_indicator {
+  background: #1D1546;
+}
+.control input:disabled ~ .control_indicator {
+  background: #1D1546;
+  opacity: 0;
+  pointer-events: none;
+}
+.control_indicator:after {
+  box-sizing: unset;
+  content: '';
+  position: absolute;
+  display: none;
+}
+.control input:checked ~ .control_indicator:after {
+  display: block;
+}
+.control-checkbox .control_indicator:after {
+  left: 11px;
+  top: 5px;
+  width: 5px;
+  height: 13px;
+  border: solid #f4f0f0;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+.control-checkbox input:disabled ~ .control_indicator:after {
+  border-color: #1D1546;
+}
+
+.checkPos{
+  margin-left: 64px;
+  margin-right: 65px;
+}
+
+.removeBtn{
+  height: 34px;
+  width: 142px;
+  left: 765px;
+  top: 999px;
+  border-radius: 7px;
+  padding: 10px, 30px, 10px, 30px;
+  background: radial-gradient(99.95% 134.94% at 16.83% -14.06%, #FF91C6 0%, #FF76B8 35.99%, #FF64AE 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+border-radius: 7px;
+font-family: Fira Sans;
+font-size: 12px;
+font-weight: 900;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: center;
+color:#FFFFFF;
+}
+
+.text > p1 {
+  width: auto;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700 !important;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-right: 50px;
+}
+
+.text > p2 {
+  width: auto;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-right: 50px;
+  margin-left: 20px;
+}
+
+.text > p2 > a {
+  color: #FF64AE;
+  text-decoration-line: underline;
+}
